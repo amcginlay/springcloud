@@ -11,4 +11,12 @@ spring:
           #password: xyz
           search-paths:
             - "station*"
+          repos:
+            perf:
+              pattern:
+                - "*/perf"
+              uri: https://github.com/amcginlay/springcloud-config-perf
+              search-paths:
+                - "station*"
+                
   
