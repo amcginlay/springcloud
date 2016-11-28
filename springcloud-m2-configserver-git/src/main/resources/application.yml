@@ -9,5 +9,6 @@ spring:
           uri: https://github.com/amcginlay/springcloud-config
           #username: abc
           #password: xyz
-          
+          search-paths:
+            - "station*"
   
