@@ -3,7 +3,10 @@ server:
   port: 8888
 security:
   basic:
-    enabled: false 
+    enabled: true
+  user: 
+    name: amcginlay
+    password: password123
 spring:
   cloud:
     config:
