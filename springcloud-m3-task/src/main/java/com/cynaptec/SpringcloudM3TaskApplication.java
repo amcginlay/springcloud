@@ -26,6 +26,12 @@ public class SpringcloudM3TaskApplication {
 			// parameters stationId, licence plate, timestamp
 			if (null != strings) {
 				System.out.println("Parameter length is " + strings.length);
+				
+				String stationId = strings[1];
+				String licensePlate = strings[2];
+				String timestamp = strings[3];
+				
+				System.out.println("Station ID is " + stationId + ", plate is " + licensePlate + ", timestamp is " + timestamp);
 			}
 			
 		}
